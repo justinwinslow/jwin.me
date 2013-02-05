@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+
+<head>
+	<meta name="author" content="Justin Winslow">
+	<meta name="keywords" content="justin, winslow, web, design, interaction, html, xhtml, css, javascript, austin, tx, texas">
+	<meta name="copyright" content="Copyright 2013 - Justin Winslow. All rights reserved.">
+	<meta name="title" content="j.winslow design">
+	<meta name="description" content="Justin Winslow">
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0;"> 
+	
+	<title>Justin Winslow</title>
+
+	<style type="text/css">
+		* {
+			margin:0;
+			padding:0;
+			border:none;
+		}
+
+		body {
+			background: #000;
+		}
+
+		#justin-winslow {
+			overflow:hidden;
+		}
+
+		#justin-winslow img {
+			width:100%;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="justin-winslow">
+		<a href="http://www.jwindesign.com" title="Justin Winslow">
+			<img src="images/justin-winslow.jpg" alt="Justin Winslow">
+		</a>
+	</div>
+
+	<script type="text/javascript">
+		var photo = document.getElementById('justin-winslow'); 
+		
+		photo.style.height = window.innerHeight + 'px';
+
+		window.onresize = function(event) {
+		    photo.style.height = window.innerHeight + 'px';
+		}
+	</script>
+</body>
+</html>
